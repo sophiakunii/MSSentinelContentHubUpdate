@@ -1,8 +1,8 @@
 #Sentinel環境のパラメーター
-$TenantName = ""
-$SubscriptionId = ""
-$ResourceGroupName = ""
-$WorkspaceName = ""
+$TenantName = ""          #EntraテナントID
+$SubscriptionId = ""      #AzureサブスクリプションID
+$ResourceGroupName = ""   #Sentinelワークスペースが作られているリソースグループ名
+$WorkspaceName = ""       #Sentinelリソースグループ名
 
 #Microsoft Azureへのサインイン
 Connect-AzAccount -tenant $TenantName
