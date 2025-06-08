@@ -1,1 +1,2 @@
 # MSSentinelContentHubUpdate
+Microsoft Sentinelに追加されたコンテンツハブのうち、更新可能な状態のコンテンツハブを検出するスクリプトです。
